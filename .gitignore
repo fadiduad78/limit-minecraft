@@ -39,3 +39,4 @@ focusguard_config.enc
 *.token
 *.log
 focusguard_history.json
+.cache/
