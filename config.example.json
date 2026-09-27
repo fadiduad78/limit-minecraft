@@ -1,0 +1,46 @@
+{
+  "_comment": "FocusGuard Configuration Template (This represents the decrypted structure managed securely by config_manager.py)",
+  "version": 1,
+  "idle_threshold_seconds": 60,
+  "input_event_threshold": 5,
+  "input_window_seconds": 30,
+  "cooldown_window_seconds": 300,
+  "poll_interval_seconds": 2,
+  "last_reset_date": "2026-09-27",
+  "lockout_schedule": {
+    "enabled": true,
+    "allowed_start": "08:00",
+    "allowed_end": "21:00",
+    "allowed_days": [0, 1, 2, 3, 4, 5, 6]
+  },
+  "apps": {
+    "minecraft.exe": {
+      "display_name": "Minecraft (Bedrock / Launcher)",
+      "daily_limit_minutes": 60,
+      "remaining_seconds_today": 3600,
+      "total_active_seconds_today": 0,
+      "total_open_seconds_today": 0
+    },
+    "javaw.exe": {
+      "display_name": "Minecraft (Java Edition)",
+      "daily_limit_minutes": 60,
+      "remaining_seconds_today": 3600,
+      "total_active_seconds_today": 0,
+      "total_open_seconds_today": 0
+    },
+    "robloxplayerbeta.exe": {
+      "display_name": "Roblox Player",
+      "daily_limit_minutes": 45,
+      "remaining_seconds_today": 2700,
+      "total_active_seconds_today": 0,
+      "total_open_seconds_today": 0
+    },
+    "fortniteclient-win64-shipping.exe": {
+      "display_name": "Fortnite",
+      "daily_limit_minutes": 60,
+      "remaining_seconds_today": 3600,
+      "total_active_seconds_today": 0,
+      "total_open_seconds_today": 0
+    }
+  }
+}

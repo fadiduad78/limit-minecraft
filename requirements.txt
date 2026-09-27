@@ -1,0 +1,9 @@
+# FocusGuard Dependencies
+# Low-level process & system inspection
+psutil>=5.9.0
+
+# Cryptographic encryption & tamper-proofing
+cryptography>=41.0.0
+
+# Windows Win32 API extensions (Windows only)
+pywin32>=306; sys_platform == 'win32'
